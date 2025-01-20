@@ -11,8 +11,8 @@ import os
 
 from crud_functions import get_all_products
 
-BOT_TOKEN = os.environ.get("7704336768:AAFttqL_lk0yAlSIm5GCD3S6ShoDKLLvsTY")
-bot = Bot('7704336768:AAFttqL_lk0yAlSIm5GCD3S6ShoDKLLvsTY')
+BOT_TOKEN = os.environ.get("token")
+bot = Bot('token')
 dp = Dispatcher(storage=MemoryStorage())
 
 
